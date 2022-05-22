@@ -17,6 +17,14 @@ main:
   - title: "Tags"
     url: /tags/
     
+    
+#sidebarTest
+test: 
+     #- title: "About"
+     #  url: https://mmistakes.github.io/minimal-mistakes/about/
+     - title: "Java"
+       url: /categories/Java/
+
 defaults:
   # _docs
   - scope:
