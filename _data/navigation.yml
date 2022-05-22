@@ -12,8 +12,6 @@ main:
   #   url: /sitemap/
   #- title: "Introduce"
   #  url: /about/
-   - title: "Home"
-    url: https://fasdf1.github.io/
   - title: "Category"
     url: "/categories/"
   - title: "Tags"
