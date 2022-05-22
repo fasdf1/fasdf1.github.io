@@ -16,3 +16,12 @@ main:
     url: "/categories/"
   - title: "Tags"
     url: /tags/
+    
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
