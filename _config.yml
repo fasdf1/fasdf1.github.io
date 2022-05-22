@@ -110,6 +110,8 @@ author:
                     # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**꾸준히!!**<br>백엔드 공부 내용 정리"
   location         : "Somewhere"
+  sidebar:
+        nav: "test"
   email            :
   links:
     - label: "Email"
