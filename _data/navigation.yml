@@ -19,12 +19,32 @@ main:
     
     
 #sidebarTest
-test: 
+#test: 
      #- title: "About"
      #  url: https://mmistakes.github.io/minimal-mistakes/about/
-     - title: "Java"
-       url: /categories/Java/
-
+ #    - title: "Java"
+ #      url: /categories/Java/
+test:
+  - title: Java
+    children:
+      - title: "타입"
+        url: /categories/Java/Type/
+        category: "Type"
+      - title: "변수와 연산자"
+        url: /categories/Java/VariableAndOperator/
+        category: "VariableAndOperator"
+      - title: "입출력"
+        url: /categories/Java/IO/
+        category: "IO"
+  #- title: Server
+  #  children:
+  #    - title: "Ubuntu"
+  #      url: ubuntu/
+  #      category: "ubuntu"
+  #    - title: "Windows Server"
+  #      url: windows-server/
+  #      category: "windows-server"
+        
 defaults:
   # _docs
   - scope:
