@@ -30,7 +30,7 @@ tags:
 ######3. 변수 사용을 줄여 mutable state (변경 가능한 상태) 를 제거하여 
 ######    프로그램 오류가 발생할 수 있는 가능성을 줄이는 경우
 
-```
+```java
 for(int i = 0; i < n; i++) {
 	for(int j = 0; j < n; j++) {
 		for(int k = 0; k < n; k++) {
@@ -46,7 +46,7 @@ for(int i = 0; i < n; i++) {
 
 - 팩토리얼
 
-```
+```java
 f(n) = n x f(n-1) // n>=1
         1          // n = 0
 
@@ -84,7 +84,7 @@ f(n) = n x f(n-1) // n>=1
 ***
 
 - 재귀함수 탬플릿 예시
-```
+```java
 public type recursive(input1, input2, ...) {
   // Base Case : 문제를 더 이상 쪼갤 수 없는 경우
   if (문제를 더 이상 쪼갤 수 없을 경우) {
